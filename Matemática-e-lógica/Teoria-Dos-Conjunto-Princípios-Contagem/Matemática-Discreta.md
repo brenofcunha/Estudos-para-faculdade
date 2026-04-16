@@ -1,8 +1,8 @@
-ste repositório demonstra como conceitos de Teoria dos Conjuntos e Princípios de Contagem podem ser aplicados diretamente em Python.
+# Este repositório demonstra como conceitos de Teoria dos Conjuntos e Princípios de Contagem podem ser aplicados diretamente em Python
 
 O objetivo é servir como material de apoio para estudantes e desenvolvedores que desejam entender a ligação entre matemática e programação.
 
-1. Teoria dos Conjuntos em Python
+# Teoria dos Conjuntos em Python
 
 1.1 União ( ∪ )
 
@@ -65,7 +65,8 @@ Representa um conjunto sem elementos.
 C = set()
 
 print(len(C))  # 0
-2. Princípios de Contagem
+
+# Princípios de Contagem
 
 2.1 Fatorial ( ! )
 
@@ -94,7 +95,7 @@ Exemplo:
 
 5 elementos diferentes → 5! = 120 formas
 
-3. Exemplo Completo
+# Exemplo Completo
 import math
 
 A = {1, 2, 3}
@@ -108,27 +109,26 @@ print("União:", uniao)
 print("Interseção:", intersecao)
 print("5! =", fatorial_5)
 
-4. Mapeamento Matemática → Python
-Matemática	Python	Descrição
+# Mapeamento Matemática 
 
-∪	A | B	União
+∪ A | B União
 
-∩	A & B	Interseção
+∩ A & B Interseção
 
-∈	in	Pertence
+∈ in Pertence
 
-⊂	.issubset()	Subconjunto
+⊂ .issubset() Subconjunto
 
-∅	set()	Conjunto vazio
+∅ set() Conjunto vazio
 
-n!	math.factorial(n)	Fatorial
+n! math.factorial(n) Fatorial
 
-5. Objetivo do Projeto
+1. Objetivo do Projeto
 Traduzir conceitos matemáticos para código
 Facilitar o aprendizado de lógica
 Servir como base para algoritmos mais avançados
 
-6. Possíveis Extensões
+2. Possíveis Extensões
 Permutações e combinações
 Aplicações em análise de dados
 Sistemas de recomendação
